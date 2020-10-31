@@ -29,23 +29,31 @@ rl.question("enter good night message...\n", function (text) {
       if (err) throw err;
       console.log("good night, sleep well!");
       const exec = require("child_process").exec;
-      const gitcommit = exec(
-        'git commit -a -m "good night"',
-        (error, stdout, stderr) => {
-          console.log(`stdout: ${stdout}`);
-          console.log(`stderr: ${stderr}`);
-          if (error !== null) {
-            console.log(`exec error: ${error}`);
-          }
-          const gitpush = exec("git push", (error, stdout, stderr) => {
+      const gitcommit = exec("git pull", (error, stdout, stderr) => {
+        console.log(`stdout: ${stdout}`);
+        console.log(`stderr: ${stderr}`);
+        if (error !== null) {
+          console.log(`exec error: ${error}`);
+        }
+        const exec = require("child_process").exec;
+        const gitcommit = exec(
+          'git commit -a -m "good night"',
+          (error, stdout, stderr) => {
             console.log(`stdout: ${stdout}`);
             console.log(`stderr: ${stderr}`);
             if (error !== null) {
               console.log(`exec error: ${error}`);
             }
-          });
-        }
-      );
+            const gitpush = exec("git push", (error, stdout, stderr) => {
+              console.log(`stdout: ${stdout}`);
+              console.log(`stderr: ${stderr}`);
+              if (error !== null) {
+                console.log(`exec error: ${error}`);
+              }
+            });
+          }
+        );
+      });
     }
   );
   rl.close();
