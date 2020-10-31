@@ -3,9 +3,9 @@
 
 ## ⚙️ Usage
 
-Fork and clone this repository locally. Look at README-EXAMPLE.md, delete this file and rename README-EXAMPLE.md to README.md.<br><br>
+Fork and clone this repository locally. Look at `README-EXAMPLE.md`, delete this file and rename `README-EXAMPLE.md` to `README.md`.<br><br>
 Run `npm i`, and finally, `node index.js` to run the script.<br><br>
-OPTIONAL: Create .gitignore, and in the file, copy this:
+OPTIONAL: Create `.gitignore`, and in the file, copy this:
 ```
 package.json
 index.js
