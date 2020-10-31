@@ -1,10 +1,14 @@
 {
-  "name": "gnbot",
+  "name": "goodnight",
   "version": "1.0.0",
-  "description": "gn",
+  "description": "🤖 A node.js script that helps me assists me in typing my good night messages to geenva/goodnight.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geenva/goodnight-script"
   },
   "author": "geneva (Marcus Y)",
   "license": "MIT",

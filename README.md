@@ -3,7 +3,7 @@
 
 ## ⚙️ Usage
 
-Fork and clone this repository locally. Look at `README-EXAMPLE.md`, delete this file and rename `README-EXAMPLE.md` to `README.md`.<br><br>
+**You'll need [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/).**<br><br>Fork and clone this repository locally. Look at `README-EXAMPLE.md`, delete this file and rename `README-EXAMPLE.md` to `README.md`.<br><br>
 Run `npm i`, and finally, `node index.js` to run the script.<br><br>
 OPTIONAL: Create `.gitignore`, and in the file, copy this:
 ```
@@ -14,4 +14,8 @@ node_modules
 ```
 <br>
 Congrats! You're done.<br><br>
+
+## Example
+[My good night repository](https://github.com/geenva/goodnight)
+
 <h3>a <a href="https://marcuscodes.me" alt="link">geneva</a> project.</h3>
