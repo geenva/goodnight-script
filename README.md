@@ -14,4 +14,4 @@ node_modules
 ```
 <br>
 Congrats! You're done.<br><br>
-<h3>a <a href="https://marcuscodes.me" alt="link">geneva</a> progect.</h3>
+<h3>a <a href="https://marcuscodes.me" alt="link">geneva</a> project.</h3>
