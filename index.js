@@ -32,7 +32,7 @@ rl.question("enter good night text...\n", function(text) {
         if (err) throw err;
         console.log("good night, sleep well")
         const exec = require('child_process').exec;
-const gitcommit = exec('git commit -S -a -m "good night"',
+const gitcommit = exec('git commit -a -m "good night"',
     (error, stdout, stderr) => {
         console.log(`stdout: ${stdout}`);
         console.log(`stderr: ${stderr}`);
