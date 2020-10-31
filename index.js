@@ -30,7 +30,7 @@ rl.question("enter good night text...\n", function(text) {
         fs.appendFile('README.md', `<br>${fullDate} ${h}:${m}:${s} > good night - ${text}`, 'utf8',
     function(err) { 
         if (err) throw err;
-        console.log("good night marcus, sleep well")
+        console.log("good night, sleep well")
         const exec = require('child_process').exec;
 const gitcommit = exec('git commit -S -a -m "good night"',
     (error, stdout, stderr) => {
